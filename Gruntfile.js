@@ -260,7 +260,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: '../',
+          remote: 'git@github.com:solidspark/website.git',
           branch: 'grid',
           commit: true,
           push: true
